@@ -218,9 +218,9 @@ ifdef UFS912
 obj-y += cec/
 endif
 
-ifdef UFS913
-obj-y += cec/
-endif
+#ifdef UFS913
+#obj-y += cec/
+#endif
 
 ifdef ATEVIO7500
 obj-y += cec/
