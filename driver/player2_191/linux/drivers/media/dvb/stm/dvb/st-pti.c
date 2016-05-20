@@ -599,7 +599,7 @@ void ptiInit(struct DeviceContext_s *pContext)
 		cx24116_register_frontend(&pContext->DvbContext->DvbAdapter);
 		avl2108_register_frontend(&pContext->DvbContext->DvbAdapter);
 #elif defined(UFS913)
-#socket_register_adapter(&pContext->DvbContext->DvbAdapter);
+//socket_register_adapter(&pContext->DvbContext->DvbAdapter);
 #else
 		cx24116_register_frontend(&pContext->DvbContext->DvbAdapter);
 #endif
