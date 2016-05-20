@@ -19,3 +19,17 @@ How To..
 6. Configure and build
     ./make.sh
 
+28
+5
+y
+2
+4
+1
+1
+make yaud-enigma2-pli-nightly -j4  
+(-j4 = use 4 cpu core if got more set it -j8)
+(this build all)
+or
+make crosstool driver -j4
+(To build kernel,toolchain nad driver configured for Albis Stb8000)
+
