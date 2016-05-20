@@ -1142,10 +1142,10 @@ $(D)/%release_enigma2: release_enigma2_base release_enigma2_$(TF7700)$(HL101)$(V
 # FOR YOUR OWN CHANGES use these folder in cdk/own_build/enigma2
 #
 #	default for all receiver
-	find $(buildprefix)/own_build/enigma2/ -mindepth 1 -maxdepth 1 -exec cp -at$(prefix)/release/ -- {} +
+#	find $(buildprefix)/own_build/enigma2/ -mindepth 1 -maxdepth 1 -exec cp -at$(prefix)/release/ -- {} +
 #	receiver specific (only if directory exist)
-	[ -d "$(buildprefix)/own_build/enigma2.$(BOXTYPE)" ] && find $(buildprefix)/own_build/enigma2.$(BOXTYPE)/ -mindepth 1 -maxdepth 1 -exec cp -at$(prefix)/release/ -- {} + || true
-	rm -f $(prefix)/release/for_your_own_changes
+#	[ -d "$(buildprefix)/own_build/enigma2.$(BOXTYPE)" ] && find $(buildprefix)/own_build/enigma2.$(BOXTYPE)/ -mindepth 1 -maxdepth 1 -exec cp -at$(prefix)/release/ -- {} + || true
+#	rm -f $(prefix)/release/for_your_own_changes
 
 #
 # sh4-linux-strip all
