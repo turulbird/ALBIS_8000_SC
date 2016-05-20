@@ -9,6 +9,7 @@ How To..
 2. cd STB8000_TDT_SH4
 
 3. Install dependency
+    
     sudo ./prepare4cdk.sh 
 
 4. cd STB8000_TDT_SH4/cdk
