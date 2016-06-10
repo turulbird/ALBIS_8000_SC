@@ -42,7 +42,7 @@ or
 
 make crosstool driver -j4
 
-(To build kernel,toolchain nad driver configured for Albis Stb8000)
+(To build kernel,toolchain and driver configured for Albis Stb8000)
 
 On error try rerun.
 
