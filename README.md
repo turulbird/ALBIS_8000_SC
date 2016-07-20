@@ -1,6 +1,8 @@
 # STB8000_TDT_SH4
 This is version Duckbox TDT SH4 for Albis STB8000(ufs913).
+
 This build or (https://github.com/Duckbox-Developers) is not builds for final firmware.
+
 This builds if for easy build and modified driver,kernel or python plugin for enigma and put/change in basic HDMU or another firmware for ufs913 etc.
 
 My version of builds is modified kernel and drivers for albis8000 and need HDMU firmware for ufs913.
