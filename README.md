@@ -1,5 +1,7 @@
-# STB8000_TDT_SH4
-This is version Duckbox TDT SH4 for Albis STB8000(ufs913).
+# ALBIS_8000_SC
+  (STB8000_TDT_SH4 update)
+  
+This is version Duckbox TDT SH4 for Albis SceneGate 8000 (ufs913).
 
 This build or (https://github.com/Duckbox-Developers) is not builds for final firmware.
 
@@ -7,24 +9,28 @@ This builds if for easy build and modified driver,kernel or python plugin for en
 
 My version of builds is modified kernel and drivers for albis8000 and need HDMU firmware for ufs913.
 
-In ufs913 HDMU firmware change drivers and kernel to work on albis8000.
+In ufs913 HDMU firmware change drivers and kernel to work on albis8000SC.
+
 
 How To..
+
 1. Clone git repo
 
-    git clone https://github.com/Raxone/STB8000_TDT_SH4.git
-
-2. cd STB8000_TDT_SH4
+    git clone https://github.com/turulbird/ALBIS_8000_SC.git
+    
+2. cd ALBIS_8000_SC
 
 3. Install dependency
     
     sudo ./prepare4cdk.sh 
 
-4. cd STB8000_TDT_SH4/cdk
+4. cd ALBIS_8000_SC/cdk
+
 
 5. make dir cdk/root/boot and put in boot dir audio.elf and video.elf from stb and rename it in audio_7105.elf and video_7105.elf
 
 6. Configure and build
+
     ./make.sh
 
 28
@@ -41,15 +47,15 @@ y
 
 1
 
-make crosstool driver -j4
+make crosstool driver -jx
 
 (To build kernel,toolchain and driver configured for Albis Stb8000)
 
 or
 
-make yaud-enigma2-pli-nightly -j4
+make yaud-enigma2-pli-nightly -jx
 
-(-j4 = use 4 cpu core if got more set it -j8)
+(-jx = use x cpu core if got more set it -j8)
 (this build all)
 
 
