@@ -41,7 +41,7 @@ libungif-4.1.4.tar.bz2;http://heanet.dl.sourceforge.net/sourceforge/giflib
 jpegsrc.v8d.tar.gz;http://www.ijg.org/files
 libjpeg-turbo-1.4.2.tar.gz;http://sourceforge.net/projects/libjpeg-turbo/files/1.4.2
 libpng-1.2.50.tar.bz2;http://sourceforge.net/projects/libpng/files/libpng12/1.2.50
-libpng-1.6.21.tar.gz;http://sourceforge.net/projects/libpng/files/libpng16/1.6.21
+libpng-1.6.21.tar.gz;https://src.fedoraproject.org/lookaside/pkgs/libpng/libpng-1.6.21.tar.gz/aca36ec8e0a3b406a5912243bc243717/
 png++-0.2.9.tar.gz;http://download.savannah.gnu.org/releases/pngpp
 tiff-4.0.3.tar.gz;http://download.osgeo.org/libtiff
 pixman-0.18.0.tar.gz;http://cairographics.org/releases
@@ -129,7 +129,7 @@ pugixml-1.6.tar.gz;http://github.com/zeux/pugixml/releases/download/v1.6
 #
 # contrib apps
 #
-bzip2-1.0.6.tar.gz;http://www.bzip.org/1.0.6
+bzip2-1.0.6.tar.gz;https://src.fedoraproject.org/lookaside/pkgs/bzip2/bzip2-1.0.6.tar.gz/00b516f4704d4a7cb50a1d97e6e8e15b/
 grep-2.5.1.tar.bz2;ftp://mirrors.kernel.org/gnu/grep
 grep_2.5.1.ds2-6.diff.gz;http://64studio.hivelocity.net/apt/pool/main/g/grep
 openrdate-1.1.2.tar.gz;http://prdownloads.sourceforge.net/sourceforge/openrdate
@@ -227,7 +227,7 @@ dpf-ax.svn;svn://svn.code.sf.net/p/dpf-ax/code/trunk
 #
 # Security
 #
-openssl-1.0.2h.tar.gz;ftp://ftp.openssl.org/source
+openssl-1.0.2h.tar.gz;https://ftp.openssl.org/source/old/1.0.2/
 gnutls-3.4.3.tar.xz;ftp://ftp.gnutls.org/gcrypt/gnutls/v3.4
 nettle-3.1.tar.gz;https://ftp.gnu.org/gnu/nettle
 
