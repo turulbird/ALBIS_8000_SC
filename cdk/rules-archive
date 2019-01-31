@@ -268,7 +268,7 @@ zd1211lnxdrv_2_15_0_0.tar.gz;http://www.lutec.eu/treiber
 wireless_tools.29.tar.gz;http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux
 libnl-2.0.tar.gz;http://www.carisma.slowglass.com/~tgr/libnl/files
 wpa_supplicant-0.7.3.tar.gz;http://hostap.epitest.fi/releases
-ethtool-6.tar.gz;http://downloads.openwrt.org/sources
+ethtool-6.tar.gz;https://src.fedoraproject.org/lookaside/extras/ethtool/ethtool-6.tar.gz/4995625a2fcb0953b6b446034eb9eed9/
 xupnpd.git;git://github.com/clark15b/xupnpd
 udpxy.1.0.23-0-prod.tar.gz;http://www.udpxy.com/download/1_23
 glib-networking-2.45.1.tar.xz;http://ftp.acc.umu.se/pub/GNOME/sources/glib-networking/2.45
