@@ -323,7 +323,7 @@ HOST_KERNEL_CONFIG = linux-sh4-$(subst _stm24_,_,$(KERNELVERSION))_$(MODNAME).co
 $(D)/linux-kernel: $(D)/bootstrap $(buildprefix)/Patches/$(BUILDCONFIG)/$(HOST_KERNEL_CONFIG) | $(HOST_U_BOOT_TOOLS) \
 	$(if $(HOST_KERNEL_PATCHES),$(HOST_KERNEL_PATCHES:%=$(PATCHES)/$(BUILDCONFIG)/%))
 	rm -rf linux-sh4*
-	REPO=git://git.stlinux.com/stm/linux-sh4-2.6.32.y.git;protocol=git;branch=stmicro; \
+	REPO=https://github.com/seife/linux-sh4-2.6.32.y.git;protocol=git;branch=stmicro; \
 	[ -d "$(archivedir)/linux-sh4-2.6.32.y.git" ] && \
 	(echo "Updating STlinux kernel source"; cd $(archivedir)/linux-sh4-2.6.32.y.git; git pull;); \
 	[ -d "$(archivedir)/linux-sh4-2.6.32.y.git" ] || \
