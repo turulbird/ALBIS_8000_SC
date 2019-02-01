@@ -1,15 +1,15 @@
 # ALBIS_8000_SC
   (STB8000_TDT_SH4 update)
   
-This is version Duckbox TDT SH4 for Albis SceneGate 8000 (ufs913).
+This is version Duckbox TDT SH4 for albis SceneGate 8000 (ufs913).
 
 This build or (https://github.com/Duckbox-Developers) is not builds for final firmware.
 
 This builds if for easy build and modified driver,kernel or python plugin for enigma and put/change in basic HDMU or another firmware for ufs913 etc.
 
-My version of builds is modified kernel and drivers for albis8000 and need HDMU firmware for ufs913.
+The version of builds is modified kernel and drivers for albis SC 8000 and need HDMU firmware for ufs913.
 
-In ufs913 HDMU firmware change drivers and kernel to work on albis8000SC.
+In ufs913 HDMU firmware change drivers and kernel to work on albis SC 8000.
 
 
 How To..
@@ -49,7 +49,7 @@ y
 
 make crosstool driver -jx
 
-(To build kernel,toolchain and driver configured for Albis Stb8000)
+(To build kernel,toolchain and driver configured for albis SC 8000)
 
 or
 
