@@ -27,7 +27,7 @@ How To..
 4. cd ALBIS_8000_SC/cdk
 
 
-5. make dir cdk/root/boot and put in boot dir audio.elf and video.elf from stb and rename it in audio_7105.elf and video_7105.elf
+5. make dir cdk/root/boot and put in boot dir audio.elf and video.elf from stb and rename it in audio.elf to audio_7100.elf, audio_7105.elf, audio_7109.elf and audio_7111.elf, video.elf to video_7100.elf, video_7105.elf, video_7109.elf and video_7111.elf.
 
 6. Configure and build
 
