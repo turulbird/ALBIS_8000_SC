@@ -1,5 +1,7 @@
 # ALBIS_8000_SC
-  (STB8000_TDT_SH4 update)
+
+ (STB8000_TDT_SH4 update)
+ 
   
 This is version Duckbox TDT SH4 for albis SceneGate 8000 (ufs913).
 
