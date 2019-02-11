@@ -41,14 +41,14 @@ $(D)/enigma2-pli-nightly.do_prepare: | $(ENIGMA2_DEPS)
 	echo "========================================================================================================"; \
 	echo " 1) Use your own e2 git dir without patchfile"; \
 	echo "========================================================================================================"; \
-	echo " 2) Mon, 17 Aug 2015 07:08 - E2 OpenPli gstreamer / libplayer3 cd5505a4b8aba823334032bb6fd7901557575455"; \
+	echo " 2) Mon, 10 Dec 2018 19:01 - E2 OpenPLi  any framework  a8e73e1874100aad76e44117b74543fb4018ff61"; \
 	echo "========================================================================================================"; \
 	echo "Media Framework : $(MEDIAFW)"; \
 	echo "External LCD    : $(EXTERNALLCD)"; \
 	read -p "Select          : "; \
 	[ "$$REPLY" == "0" ] && DIFF="0"; \
 	[ "$$REPLY" == "1" ] && DIFF="1" && REVISION=""; \
-	[ "$$REPLY" == "2" ] && DIFF="2" && REVISION="cd5505a4b8aba823334032bb6fd7901557575455"; \
+	[ "$$REPLY" == "2" ] && DIFF="2" && REVISION="a8e73e1874100aad76e44117b74543fb4018ff61"; \
 	echo "Revision        : "$$REVISION; \
 	echo ""; \
 	if [ "$$REPLY" != "1" ]; then \
