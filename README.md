@@ -67,7 +67,7 @@ Choose between the following revisions:
 ========================================================================================================
  1) Use your own e2 git dir without patchfile
 ========================================================================================================
- 2) Mon, 17 Aug 2015 07:08 - E2 OpenPli gstreamer / libplayer3 cd5505a4b8aba823334032bb6fd7901557575455
+ 2) Mon, 10 Dec 2018 19:01 - E2 OpenPLi  any framework  a8e73e1874100aad76e44117b74543fb4018ff61
 ========================================================================================================
 Media Framework : gstreamer
 External LCD    : no
