@@ -98,7 +98,7 @@ PACKAGES="\
 	${UBUNTU:+pkg-config}           ${SUSE:+pkg-config} 					${GENTOO:+pkg-config} \
 	${UBUNTU:+patch}                ${SUSE:+patch} 						${GENTOO:+patch} \
 	${UBUNTU:+autopoint}            ${SUSE:+glib2-devel} 					${GENTOO:+glib:2} \
-	${UBUNTU:+cfv}                  ${SUSE:+fakeroot} 					${GENTOO:+cfv} \
+	${UBUNTU:+rhash}                  ${SUSE:+fakeroot} 					${GENTOO:+cfv} \
 	${UBUNTU:+fakeroot} 									${GENTOO:+fakeroot} \
 	${UBUNTU:+gawk} 									${GENTOO:+gawk} \
 	${UBUNTU:+gperf} 									${GENTOO:+gperf} \
@@ -107,7 +107,7 @@ PACKAGES="\
 	${UBUNTU:+doc-base} \
 	${UBUNTU:+texi2html} \
 	${UBUNTU:+help2man} \
-	${UBUNTU:+libgpgme11-dev} \
+	${UBUNTU:+libgpgme-dev} \
 	${UBUNTU:+libcurl4-openssl-dev} \
 	${UBUNTU:+liblzo2-dev} 									${GENTOO:+lzo:2} \
 	${UBUNTU:+libsdl-image1.2} \
